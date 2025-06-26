@@ -1,0 +1,1 @@
+POS M13 is a simple computer program made for businesses like shops and small stores. It helps you sell things easily, keep track of what you have in stock (your inventory), and even manage your employees.
