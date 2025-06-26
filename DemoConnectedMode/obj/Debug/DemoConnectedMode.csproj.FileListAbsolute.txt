@@ -1,0 +1,15 @@
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoConnectedMode\bin\Debug\DemoConnectedMode.exe.config
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoConnectedMode\bin\Debug\DemoConnectedMode.exe
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoConnectedMode\bin\Debug\DemoConnectedMode.pdb
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.csproj.AssemblyReference.cache
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.csproj.SuggestedBindingRedirects.cache
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.csproj.CoreCompileInputs.cache
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.exe
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.pdb
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoConnectedMode\bin\Debug\DemoConnectedMode.exe.config
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoConnectedMode\bin\Debug\DemoConnectedMode.exe
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoConnectedMode\bin\Debug\DemoConnectedMode.pdb
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.exe
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoConnectedMode\obj\Debug\DemoConnectedMode.pdb

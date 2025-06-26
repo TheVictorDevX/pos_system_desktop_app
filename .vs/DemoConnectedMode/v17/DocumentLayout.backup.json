@@ -1,0 +1,413 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|c:\\users\\admin\\desktop\\lim_chanvirakyuth_ft_sd_m_13_module_5_entity_framework__des_2024-05-31\\democonnectedmode\\posef\\frmsupplierentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmsupplierentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmsupplierentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmsupplierentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcustomerentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcustomerentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcustomerentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcustomerentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmsupplierlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmsupplierlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmsupplierlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmsupplierlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcustomerlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcustomerlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcustomerlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcustomerlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcategoryentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcategoryentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcategoryentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcategoryentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmproductentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmproductentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmemployeeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmemployeeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmemployeeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmemployeeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmemployeelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmemployeelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcustomerentry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcustomerentry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmproductentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmproductentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmemployeelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmemployeelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmemployeelist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmemployeelist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcategorylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcategorylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmcategorylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmcategorylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\posef\\frmproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AE1307-5D2F-482A-A277-E15F7392E013}|POSEF\\POSEF.csproj|solutionrelative:posef\\frmproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|POSEF||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSupplierEntry.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmSupplierEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmSupplierEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmSupplierEntry.cs [Design]",
+              "RelativeToolTip": "POSEF\\frmSupplierEntry.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:17:28.849Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmSupplierEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmSupplierEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmSupplierEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmSupplierEntry.cs",
+              "RelativeToolTip": "POSEF\\frmSupplierEntry.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAApwGUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:21:37.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmCustomerEntry.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCustomerEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCustomerEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmCustomerEntry.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmCustomerEntry.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:48:24.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCustomerEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCustomerEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCustomerEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCustomerEntry.cs",
+              "RelativeToolTip": "POSEF\\frmCustomerEntry.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAIA5wGgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:49:54.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmSupplierList.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmSupplierList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmSupplierList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmSupplierList.cs",
+              "RelativeToolTip": "POSEF\\frmSupplierList.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:15:22.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmSupplierList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmSupplierList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmSupplierList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmSupplierList.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmSupplierList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:14:13.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmCustomerList.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCustomerList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCustomerList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCustomerList.cs",
+              "RelativeToolTip": "POSEF\\frmCustomerList.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAApwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:46:28.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmCustomerList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCustomerList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCustomerList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmCustomerList.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmCustomerList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:45:02.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmCategoryEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCategoryEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCategoryEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCategoryEntry.cs",
+              "RelativeToolTip": "POSEF\\frmCategoryEntry.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAMwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:25:54.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmCategoryEntry.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCategoryEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCategoryEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmCategoryEntry.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmCategoryEntry.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:04:35.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmProductEntry.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmProductEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmProductEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmProductEntry.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmProductEntry.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:04:19.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmMain.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmMain.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmMain.cs",
+              "RelativeToolTip": "POSEF\\frmMain.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAhwEwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:26:54.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmMain.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmMain.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmMain.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:26:51.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmEmployeeEntry.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmEmployeeEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmEmployeeEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmEmployeeEntry.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmEmployeeEntry.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:12:47.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmEmployeeEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmEmployeeEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmEmployeeEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmEmployeeEntry.cs",
+              "RelativeToolTip": "POSEF\\frmEmployeeEntry.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAApwHUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:18:51.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmEmployeeList.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmEmployeeList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmEmployeeList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmEmployeeList.cs",
+              "RelativeToolTip": "POSEF\\frmEmployeeList.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAhwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:04:02.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmCustomerEntry.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCustomerEntry.Designer.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCustomerEntry.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCustomerEntry.Designer.cs",
+              "RelativeToolTip": "POSEF\\frmCustomerEntry.Designer.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAIAwwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:50:03.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmProductEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmProductEntry.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmProductEntry.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmProductEntry.cs",
+              "RelativeToolTip": "POSEF\\frmProductEntry.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAApwIEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:41:16.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmEmployeeList.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmEmployeeList.Designer.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmEmployeeList.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmEmployeeList.Designer.cs",
+              "RelativeToolTip": "POSEF\\frmEmployeeList.Designer.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAIAwwHUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:09:01.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmEmployeeList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmEmployeeList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmEmployeeList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmEmployeeList.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmEmployeeList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:02:12.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmCategoryList.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCategoryList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCategoryList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCategoryList.cs",
+              "RelativeToolTip": "POSEF\\frmCategoryList.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:53:36.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmCategoryList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmCategoryList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmCategoryList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmCategoryList.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmCategoryList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:53:35.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmProductList.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmProductList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmProductList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmProductList.cs",
+              "RelativeToolTip": "POSEF\\frmProductList.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:21:09.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmProductList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\frmProductList.cs",
+              "RelativeDocumentMoniker": "POSEF\\frmProductList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DemoConnectedMode\\POSEF\\frmProductList.cs [Design]",
+              "RelativeToolTip": "..\\..\\DemoConnectedMode\\POSEF\\frmProductList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:15:25.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "POSEF",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\POSEF.csproj",
+              "RelativeDocumentMoniker": "POSEF\\POSEF.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\LIM_Chanvirakyuth_FT_SD_M_13_Module_5_Entity_Framework__Des_2024-05-31\\DemoConnectedMode\\POSEF\\POSEF.csproj",
+              "RelativeToolTip": "POSEF\\POSEF.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-04T12:01:24.061Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

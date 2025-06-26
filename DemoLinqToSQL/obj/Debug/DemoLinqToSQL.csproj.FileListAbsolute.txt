@@ -1,0 +1,15 @@
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoLinqToSQL\bin\Debug\DemoLinqToSQL.exe.config
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoLinqToSQL\bin\Debug\DemoLinqToSQL.exe
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoLinqToSQL\bin\Debug\DemoLinqToSQL.pdb
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.csproj.AssemblyReference.cache
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.csproj.SuggestedBindingRedirects.cache
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.csproj.CoreCompileInputs.cache
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.exe
+C:\Users\KINGLY-BL\Desktop\M13\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.pdb
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoLinqToSQL\bin\Debug\DemoLinqToSQL.exe.config
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoLinqToSQL\bin\Debug\DemoLinqToSQL.exe
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoLinqToSQL\bin\Debug\DemoLinqToSQL.pdb
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.exe
+C:\Users\Admin\Desktop\DemoConnectedMode\DemoLinqToSQL\obj\Debug\DemoLinqToSQL.pdb

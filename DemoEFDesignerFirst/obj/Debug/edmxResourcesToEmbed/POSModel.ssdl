@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="POSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="POSModelStoreContainer">
+    <EntitySet Name="Categories" EntityType="POSModel.Store.Categories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Products" EntityType="POSModel.Store.Products" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Customers" EntityType="POSModel.Store.Customers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Suppliers" EntityType="POSModel.Store.Suppliers" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="CategoryProduct" Association="POSModel.Store.CategoryProduct">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Created" Type="datetime" Nullable="false" />
+    <Property Name="Updated" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CostPrice" Type="float" Nullable="false" />
+    <Property Name="SellingPrice" Type="float" Nullable="false" />
+    <Property Name="Unit" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Created" Type="datetime" Nullable="false" />
+    <Property Name="Updated" Type="datetime" Nullable="false" />
+    <Property Name="Category_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Created" Type="datetime" Nullable="false" />
+    <Property Name="Updated" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Created" Type="datetime" Nullable="false" />
+    <Property Name="Updated" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="CategoryProduct">
+    <End Role="Category" Type="POSModel.Store.Categories" Multiplicity="1" />
+    <End Role="Product" Type="POSModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="Category_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

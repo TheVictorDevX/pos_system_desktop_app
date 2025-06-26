@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MPOSModelStoreContainer" CdmEntityContainer="MPOSEntities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="MPOSModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="MPOSModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="MPOSModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="MPOSModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="CostPrice" ColumnName="CostPrice" />
+          <ScalarProperty Name="SellingPrice" ColumnName="SellingPrice" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Purchases">
+      <EntityTypeMapping TypeName="MPOSModel.Purchase">
+        <MappingFragment StoreEntitySet="Purchase">
+          <ScalarProperty Name="PurchaseId" ColumnName="PurchaseId" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="AmountPaid" ColumnName="AmountPaid" />
+          <ScalarProperty Name="AmountRemain" ColumnName="AmountRemain" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseDetails">
+      <EntityTypeMapping TypeName="MPOSModel.PurchaseDetail">
+        <MappingFragment StoreEntitySet="PurchaseDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PurchaseId" ColumnName="PurchaseId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="MPOSModel.Sale">
+        <MappingFragment StoreEntitySet="Sale">
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="AmountPaid" ColumnName="AmountPaid" />
+          <ScalarProperty Name="AmountRemain" ColumnName="AmountRemain" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaleDetails">
+      <EntityTypeMapping TypeName="MPOSModel.SaleDetail">
+        <MappingFragment StoreEntitySet="SaleDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stocks">
+      <EntityTypeMapping TypeName="MPOSModel.Stock">
+        <MappingFragment StoreEntitySet="Stock">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="MPOSModel.Supplier">
+        <MappingFragment StoreEntitySet="Supplier">
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Updated" ColumnName="Updated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoneBooks">
+      <EntityTypeMapping TypeName="MPOSModel.PhoneBook">
+        <MappingFragment StoreEntitySet="PhoneBook">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

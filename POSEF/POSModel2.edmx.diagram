@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7da2c7081f844580a1eaa6c8a920cde7" Name="Diagram1">
+        <EntityTypeShape EntityType="MPOSModel.Category" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.Customer" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.Employee" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.Product" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.Purchase" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.PurchaseDetail" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.Sale" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.SaleDetail" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.Stock" Width="1.5" PointX="5.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MPOSModel.Supplier" Width="1.5" PointX="0.75" PointY="14.125" IsExpanded="true" />
+        <AssociationConnector Association="MPOSModel.FK_CategoryProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__Sale__CustomerId__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__Purchase__Employ__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__Sale__EmployeeId__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__PurchaseD__Produ__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__SaleDetai__Produ__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__Stock__ProductId__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__Purchase__Suppli__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__PurchaseD__Purch__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="MPOSModel.FK__SaleDetai__SaleI__4F7CD00D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

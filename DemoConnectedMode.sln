@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConnectedMode", "DemoConnectedMode\DemoConnectedMode.csproj", "{77352899-2C27-4B6C-9019-EA2AB33F4435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPOSConnectedMode", "DemoPOSConnectedMode\DemoPOSConnectedMode.csproj", "{90D9162E-CC50-480A-B4B7-98B27B80749F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDisconnectedMode", "DemoDisconnectedMode\DemoDisconnectedMode.csproj", "{8DB175E8-DC9E-481A-B851-D81C86C47DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLinqToSQL", "DemoLinqToSQL\DemoLinqToSQL.csproj", "{3C18E93E-7085-40B7-AA94-9F6207B77F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEFDBFirst", "DemoEFDBFirst\DemoEFDBFirst.csproj", "{E805C1E1-0937-4C33-9DEC-896FAE84DC0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSEF", "POSEF\POSEF.csproj", "{F6AE1307-5D2F-482A-A277-E15F7392E013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEFDesignerFirst", "DemoEFDesignerFirst\DemoEFDesignerFirst.csproj", "{9B6C921F-9DA8-41DE-A8E7-DFFBD36B60D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77352899-2C27-4B6C-9019-EA2AB33F4435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77352899-2C27-4B6C-9019-EA2AB33F4435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77352899-2C27-4B6C-9019-EA2AB33F4435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77352899-2C27-4B6C-9019-EA2AB33F4435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D9162E-CC50-480A-B4B7-98B27B80749F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D9162E-CC50-480A-B4B7-98B27B80749F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D9162E-CC50-480A-B4B7-98B27B80749F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D9162E-CC50-480A-B4B7-98B27B80749F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB175E8-DC9E-481A-B851-D81C86C47DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB175E8-DC9E-481A-B851-D81C86C47DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB175E8-DC9E-481A-B851-D81C86C47DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB175E8-DC9E-481A-B851-D81C86C47DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C18E93E-7085-40B7-AA94-9F6207B77F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C18E93E-7085-40B7-AA94-9F6207B77F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C18E93E-7085-40B7-AA94-9F6207B77F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C18E93E-7085-40B7-AA94-9F6207B77F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E805C1E1-0937-4C33-9DEC-896FAE84DC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E805C1E1-0937-4C33-9DEC-896FAE84DC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E805C1E1-0937-4C33-9DEC-896FAE84DC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E805C1E1-0937-4C33-9DEC-896FAE84DC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6AE1307-5D2F-482A-A277-E15F7392E013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6AE1307-5D2F-482A-A277-E15F7392E013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6AE1307-5D2F-482A-A277-E15F7392E013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6AE1307-5D2F-482A-A277-E15F7392E013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6C921F-9DA8-41DE-A8E7-DFFBD36B60D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6C921F-9DA8-41DE-A8E7-DFFBD36B60D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6C921F-9DA8-41DE-A8E7-DFFBD36B60D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6C921F-9DA8-41DE-A8E7-DFFBD36B60D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {037F8FD1-5BCF-44F2-A770-E48AB44A591E}
+	EndGlobalSection
+EndGlobal

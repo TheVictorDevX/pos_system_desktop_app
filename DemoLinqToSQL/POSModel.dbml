@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MPOS" Class="POSModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-3CG136T;Initial Catalog=MPOS;Integrated Security=True" SettingsObjectName="DemoLinqToSQL.Properties.Settings" SettingsPropertyName="MPOSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Category" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Category_Product" Member="Products" ThisKey="CategoryId" OtherKey="CategoryId" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Supplier" Member="Suppliers">
+    <Type Name="Supplier">
+      <Column Name="SupplierId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Supplier_Purchase" Member="Purchases" ThisKey="SupplierId" OtherKey="SupplierId" Type="Purchase" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customer" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CustomerName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Customer_Sale" Member="Sales" ThisKey="CustomerId" OtherKey="CustomerId" Type="Sale" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Employee" Member="Employees">
+    <Type Name="Employee">
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="Salary" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Employee_Purchase" Member="Purchases" ThisKey="EmployeeId" OtherKey="EmployeeId" Type="Purchase" />
+      <Association Name="Employee_Sale" Member="Sales" ThisKey="EmployeeId" OtherKey="EmployeeId" Type="Sale" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhoneBook" Member="PhoneBooks">
+    <Type Name="PhoneBook">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Product" Member="Products">
+    <Type Name="Product">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CostPrice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="SellingPrice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Product_PurchaseDetail" Member="PurchaseDetails" ThisKey="ProductId" OtherKey="ProductId" Type="PurchaseDetail" />
+      <Association Name="Product_SaleDetail" Member="SaleDetails" ThisKey="ProductId" OtherKey="ProductId" Type="SaleDetail" />
+      <Association Name="Product_Stock" Member="Stocks" ThisKey="ProductId" OtherKey="ProductId" Type="Stock" />
+      <Association Name="Category_Product" Member="Category" ThisKey="CategoryId" OtherKey="CategoryId" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Purchase" Member="Purchases">
+    <Type Name="Purchase">
+      <Column Name="PurchaseId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SupplierId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="AmountPaid" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="AmountRemain" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Purchase_PurchaseDetail" Member="PurchaseDetails" ThisKey="PurchaseId" OtherKey="PurchaseId" Type="PurchaseDetail" />
+      <Association Name="Employee_Purchase" Member="Employee" ThisKey="EmployeeId" OtherKey="EmployeeId" Type="Employee" IsForeignKey="true" />
+      <Association Name="Supplier_Purchase" Member="Supplier" ThisKey="SupplierId" OtherKey="SupplierId" Type="Supplier" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PurchaseDetail" Member="PurchaseDetails">
+    <Type Name="PurchaseDetail">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PurchaseId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalPrice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Product_PurchaseDetail" Member="Product" ThisKey="ProductId" OtherKey="ProductId" Type="Product" IsForeignKey="true" />
+      <Association Name="Purchase_PurchaseDetail" Member="Purchase" ThisKey="PurchaseId" OtherKey="PurchaseId" Type="Purchase" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sale" Member="Sales">
+    <Type Name="Sale">
+      <Column Name="SaleId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="AmountPaid" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="AmountRemain" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Sale_SaleDetail" Member="SaleDetails" ThisKey="SaleId" OtherKey="SaleId" Type="SaleDetail" />
+      <Association Name="Customer_Sale" Member="Customer" ThisKey="CustomerId" OtherKey="CustomerId" Type="Customer" IsForeignKey="true" />
+      <Association Name="Employee_Sale" Member="Employee" ThisKey="EmployeeId" OtherKey="EmployeeId" Type="Employee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SaleDetail" Member="SaleDetails">
+    <Type Name="SaleDetail">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SaleId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalPrice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Product_SaleDetail" Member="Product" ThisKey="ProductId" OtherKey="ProductId" Type="Product" IsForeignKey="true" />
+      <Association Name="Sale_SaleDetail" Member="Sale" ThisKey="SaleId" OtherKey="SaleId" Type="Sale" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Stock" Member="Stocks">
+    <Type Name="Stock">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Product_Stock" Member="Product" ThisKey="ProductId" OtherKey="ProductId" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vCategory" Member="vCategories">
+    <Type Name="vCategory">
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vProductDetail" Member="vProductDetails">
+    <Type Name="vProductDetail">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SellingPrice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.spCategory" Method="spCategory">
+    <ElementType Name="spCategoryResult">
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
